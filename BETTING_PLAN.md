@@ -37,12 +37,16 @@ international books — hence the thresholds below.
 
 ## The plan: $100 SGD
 
-| # | Bet | Stake | Condition | Rationale |
+| # | Bet | Stake | Status (all placed 2026-06-12) | Rationale |
 |---|---|---|---|---|
-| 1 | **Spain outright** | $30 | SGP odds ≥ 4.50 | Both model (#1, 39%) and every market (#1) agree; easy group, soft bracket side |
-| 2 | **Argentina outright** | $25 | SGP odds ≥ 8.00 | Biggest model-vs-market gap: Elo 24.7% vs PM 8.8% — market over-discounts the aging core, Elo says results don't show decline |
-| 3 | **Colombia outright** | $10 | **PLACED 2026-06-12 at 35** (below the 50 threshold — fair on pure Elo at 2.9%, −EV on the blend; placed anyway, let it ride, pays $350) | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
+| 1 | **Spain outright** | $30 | **PLACED at 4.50** (at threshold; +16% EV on blend) → pays $135 | Both model (#1, 39%) and every market (#1) agree; easy group, soft bracket side |
+| 2 | **Argentina outright** | $25 | **PLACED at 6.00** (below 8.00 threshold — SGP clipped vs intl ~10.0; −9% EV on blend, +48% on pure Elo) → pays $150 | Biggest model-vs-market gap: Elo 24.7% vs PM 8.8% — a pure trust-the-model position at this price |
+| 3 | **Colombia outright** | $10 | **PLACED at 35** (below 50 threshold; ~fair on pure Elo) → pays $350 | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
 | 4 | **Reserve — knockout match bets** | **$35** | After group stage (~June 28) | Re-run `predict.py` with updated Elo; bet individual R32/R16 matches where model prob beats SGP implied by >8 pts. Match markets have lower margin than outrights and the model is sharpest head-to-head |
+
+**Position summary**: $65 staked, $35 reserve. Net outcomes (ignoring reserve):
+Spain win **+$70** · Argentina win **+$85** · Colombia win **+$285** · all bust **−$65**.
+Model says ~66% chance at least one of the three lifts the trophy.
 
 **Skip**: France, England, Portugal, Brazil outrights — Polymarket already prices
 them at or above our blend; SG Pools' margin makes them −EV.
