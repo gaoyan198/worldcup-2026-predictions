@@ -41,8 +41,8 @@ international books — hence the thresholds below.
 |---|---|---|---|---|
 | 1 | **Spain outright** | $30 | SGP odds ≥ 4.50 | Both model (#1, 39%) and every market (#1) agree; easy group, soft bracket side |
 | 2 | **Argentina outright** | $25 | SGP odds ≥ 8.00 | Biggest model-vs-market gap: Elo 24.7% vs PM 8.8% — market over-discounts the aging core, Elo says results don't show decline |
-| 3 | ~~Colombia outright~~ | ~~$10~~ | **SKIPPED** — SGP offered 35 (2026-06-12), below the 50 threshold. At 35, EV ≈ −23% on blend prob; break-even even on pure Elo. No cushion → pass | |
-| 4 | **Reserve — knockout match bets** | **$45** | After group stage (~June 28) | Re-run `predict.py` with updated Elo; bet individual R32/R16 matches where model prob beats SGP implied by >8 pts. Match markets have lower margin than outrights and the model is sharpest head-to-head |
+| 3 | **Colombia outright** | $10 | **PLACED 2026-06-12 at 35** (below the 50 threshold — fair on pure Elo at 2.9%, −EV on the blend; placed anyway, let it ride, pays $350) | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
+| 4 | **Reserve — knockout match bets** | **$35** | After group stage (~June 28) | Re-run `predict.py` with updated Elo; bet individual R32/R16 matches where model prob beats SGP implied by >8 pts. Match markets have lower margin than outrights and the model is sharpest head-to-head |
 
 **Skip**: France, England, Portugal, Brazil outrights — Polymarket already prices
 them at or above our blend; SG Pools' margin makes them −EV.
