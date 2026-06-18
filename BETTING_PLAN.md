@@ -41,12 +41,13 @@ international books — hence the thresholds below.
 |---|---|---|---|---|
 | 1 | **Spain outright** | $30 | **PLACED at 4.50** (at threshold; +16% EV on blend) → pays $135 | Both model (#1, 39%) and every market (#1) agree; easy group, soft bracket side |
 | 2 | **Argentina outright** | $25 | **PLACED at 6.00** (below 8.00 threshold — SGP clipped vs intl ~10.0; −9% EV on blend, +48% on pure Elo) → pays $150 | Biggest model-vs-market gap: Elo 24.7% vs PM 8.8% — a pure trust-the-model position at this price |
-| 3 | **Colombia outright** | $10 | **PLACED at 35** (below 50 threshold; ~fair on pure Elo) → pays $350 | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
-| 4 | **Reserve — knockout match bets** | **$35** | After group stage (~June 28) | Re-run `predict.py` with updated Elo; bet individual R32/R16 matches where model prob beats SGP implied by >8 pts. Match markets have lower margin than outrights and the model is sharpest head-to-head |
+| 3 | **Colombia outright** | $10 | **PLACED at 35** (below 50 threshold; ~fair on pure Elo 2.9%, −EV on blend) → pays $350 | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
+| 4 | **Morocco outright** | $10 | **PLACED 2026-06-12 at 35** (−EV on all signals: Elo ~0%, PM 1.6%; pure lottery ticket / 2022 redux bet) → pays $350 | |
+| 5 | **Reserve — knockout match bets** | **$25** | After group stage (~June 28) | Re-run `predict.py` with updated Elo; bet individual R32/R16 matches where model prob beats SGP implied by >8 pts. Match markets have lower margin than outrights and the model is sharpest head-to-head |
 
-**Position summary**: $65 staked, $35 reserve. Net outcomes (ignoring reserve):
-Spain win **+$70** · Argentina win **+$85** · Colombia win **+$285** · all bust **−$65**.
-Model says ~66% chance at least one of the three lifts the trophy.
+**Position summary**: $75 staked, $25 reserve. Net outcomes (ignoring reserve):
+Spain win **+$60** · Argentina win **+$75** · Colombia win **+$275** · Morocco win **+$275** · all bust **−$75**.
+Elo model: ~67% chance Spain, Argentina or Colombia wins; Morocco path is essentially the model being wrong.
 
 **Skip**: France, England, Portugal, Brazil outrights — Polymarket already prices
 them at or above our blend; SG Pools' margin makes them −EV.
