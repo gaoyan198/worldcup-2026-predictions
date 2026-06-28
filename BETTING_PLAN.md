@@ -43,7 +43,17 @@ international books — hence the thresholds below.
 | 2 | **Argentina outright** | $25 | **PLACED at 6.00** (below 8.00 threshold — SGP clipped vs intl ~10.0; −9% EV on blend, +48% on pure Elo) → pays $150 | Biggest model-vs-market gap: Elo 24.7% vs PM 8.8% — a pure trust-the-model position at this price |
 | 3 | **Colombia outright** | $10 | **PLACED at 35** (below 50 threshold; ~fair on pure Elo 2.9%, −EV on blend) → pays $350 | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
 | 4 | **Morocco outright** | $10 | **PLACED 2026-06-12 at 35** (−EV on all signals: Elo ~0%, PM 1.6%; pure lottery ticket / 2022 redux bet) → pays $350 | |
-| 5 | **Reserve — knockout match bets** | **$25** | After group stage (~June 28) | Re-run `predict.py` with updated Elo; bet individual R32/R16 matches where model prob beats SGP implied by >8 pts. Match markets have lower margin than outrights and the model is sharpest head-to-head |
+| 5 | **Norway to beat Ivory Coast (R32 match)** | $15 | **PLACED 2026-06-28 at 1.85** (model 73% vs market 54%, +35% EV; well above 1.53 threshold) → returns $27.75 | Best value on the R32 board; model sharpest in head-to-head, market likely shading Ivory Coast's AFCON pedigree |
+| 6 | **Reserve — Round of 16 match bets** | **$10** | After R32 (~early July) | Match markets tighten and lengthen in R16; deploy where model beats SGP-implied with cushion |
+
+### Group-stage outcome (as of 2026-06-28)
+All four outright teams advanced; three won their groups.
+- 🇦🇷 Argentina — won Group J (Messi brace vs Austria); R32 vs Cape Verde (model 95%). Best ticket.
+- 🇪🇸 Spain — won Group H (recovered: 4-0 Saudi, 1-0 Uruguay); R32 vs Austria (85%).
+- 🇨🇴 Colombia — WON Group K (0-0 vs Portugal); R32 vs Ghana (92%). Dream draw.
+- 🇲🇦 Morocco — 2nd in Group C; R32 vs Netherlands (36%). Toughest draw, likely first to exit. Let it ride for the upset (no hedge).
+
+**Position: $90 staked, $10 reserve.** Updated model (100k sims): Argentina 30.7%, Spain 27.4%, France 22.2% champion (model over-concentrates; market has France 24% / Argentina 20% / Spain 11%).
 
 **Position summary**: $75 staked, $25 reserve. Net outcomes (ignoring reserve):
 Spain win **+$60** · Argentina win **+$75** · Colombia win **+$275** · Morocco win **+$275** · all bust **−$75**.
