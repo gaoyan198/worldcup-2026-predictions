@@ -43,7 +43,7 @@ international books — hence the thresholds below.
 | 2 | **Argentina outright** | $25 | **PLACED at 6.00** (below 8.00 threshold — SGP clipped vs intl ~10.0; −9% EV on blend, +48% on pure Elo) → pays $150 | Biggest model-vs-market gap: Elo 24.7% vs PM 8.8% — a pure trust-the-model position at this price |
 | 3 | **Colombia outright** | $10 | **PLACED at 35** (below 50 threshold; ~fair on pure Elo 2.9%, −EV on blend) → pays $350 | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
 | 4 | **Morocco outright** | $10 | **PLACED 2026-06-12 at 35** (−EV on all signals: Elo ~0%, PM 1.6%; pure lottery ticket / 2022 redux bet) → pays $350 | |
-| 5 | **Norway to beat Ivory Coast (R32 match)** | $15 | **PLACED 2026-06-28 at 1.85** (model 73% vs market 54%, +35% EV; well above 1.53 threshold) → returns $27.75 | Best value on the R32 board; model sharpest in head-to-head, market likely shading Ivory Coast's AFCON pedigree |
+| 5 | **Norway to win in 90 min vs Ivory Coast (1X2)** | $15 | **PLACED 2026-06-28 at 1.85.** NOTE: this is the WIN-IN-90 market, NOT "to advance" — a draw after 90 loses even if Norway win on pens. Model win-in-90 67.8%, but Elo overrates Norway (Ivory Coast = AFCON champs, underrated); honest est ~57–60%; market implies ~51%. Thin +EV (~+5–11%), ~40% chance of losing (draw ~1-in-5 is the trap) → returns $27.75 | LESSON: always confirm 1X2 vs to-qualify market before betting a knockout favorite |
 | 6 | **Reserve — Round of 16 match bets** | **$10** | After R32 (~early July) | Match markets tighten and lengthen in R16; deploy where model beats SGP-implied with cushion |
 
 ### Group-stage outcome (as of 2026-06-28)
