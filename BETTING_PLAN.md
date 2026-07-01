@@ -44,14 +44,15 @@ international books — hence the thresholds below.
 | 3 | **Colombia outright** | $10 | **PLACED at 35** (below 50 threshold; ~fair on pure Elo 2.9%, −EV on blend) → pays $350 | Elo-vs-market gap (2.9% vs PM 1.8%); lottery sizing |
 | 4 | **Morocco outright** | $10 | **PLACED 2026-06-12 at 35** (−EV on all signals: Elo ~0%, PM 1.6%; pure lottery ticket / 2022 redux bet) → pays $350 | |
 | 5 | **Norway to win in 90 min vs Ivory Coast (1X2)** | $15 | ✅ **WON** (placed 2026-06-28 @1.85; settled 2026-06-30). Returned $27.75, **profit +$12.75.** Was a thin ~58% +EV bet — favourite delivered. | LESSON: always confirm 1X2 vs to-qualify market before betting a knockout favorite |
-| 6 | **Reserve — Round of 16 match bets** | **$10** | After R32 (~early July) | Match markets tighten and lengthen in R16; deploy where model beats SGP-implied with cushion |
+| 6 | **Reserve — Round of 16 match bets** | **$25** | After R32 (~early July) | Recycled Norway stake ($15) back in + original $10; $12.75 Norway profit BANKED (off the table). Deploy where model beats SGP-implied with cushion |
 
 ### Group-stage outcome (as of 2026-06-28)
 All four outright teams advanced; three won their groups.
 - 🇦🇷 Argentina — won Group J (Messi brace vs Austria); R32 vs Cape Verde (model 95%). Best ticket.
 - 🇪🇸 Spain — won Group H (recovered: 4-0 Saudi, 1-0 Uruguay); R32 vs Austria (85%).
 - 🇨🇴 Colombia — WON Group K (0-0 vs Portugal); R32 vs Ghana (92%). Dream draw.
-- 🇲🇦 Morocco — 2nd in Group C; R32 vs Netherlands (36%). Toughest draw, likely first to exit. Let it ride for the upset (no hedge).
+- 🇲🇦 Morocco — 2nd in Group C; R32 vs Netherlands (model 36%). ✅ UPSET — drew 1-1, won on penalties. Outright ALIVE. R16 vs Canada.
+- 🇳🇴 Norway — R32 ✅ beat Ivory Coast (win-in-90 bet won). R16 vs Brazil (no further Norway bet held).
 
 **Position: $90 staked, $10 reserve.** Updated model (100k sims): Argentina 30.7%, Spain 27.4%, France 22.2% champion (model over-concentrates; market has France 24% / Argentina 20% / Spain 11%).
 
