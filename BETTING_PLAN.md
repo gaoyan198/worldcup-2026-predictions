@@ -68,6 +68,29 @@ chance of that final), bets 1+2 guarantee a profit — do nothing. If Spain
 reaches the final vs anyone else, consider cashing emotion-free: $30 at 5.0 =
 $150 returned only on a win; a live hedge on the opponent can lock ~$40–60.
 
+### R16 reserve decision (2026-07-04, R32 concluded — all four outrights alive)
+
+Bracket: QF1 FR-side vs CA/MA · QF2 PT/ES vs US/BE · QF3 BR/NO vs MX/EN · QF4 AR/EG vs CH/CO.
+Argentina and Colombia collide in QF4 (61% per model) — guarantees a semifinalist if both win R16.
+Spain's road: Portugal (R16) → US/BE (QF) → likely France (SF). Morocco's QF prize is France → ticket ~dead either way, do not hedge it.
+
+Conditional 500k sims, live post-R32 Elo: AR 31.0% champ / ES 25.8% / FR 27.1% / CO 2.2% / MA 0.3%.
+Polymarket post-R32: FR 34.9%, AR 17.1%, ES 12.6%, CO 3.0%, MA 2.5%.
+Portfolio EV of returns: $90 (Elo) / $73 (blend) on $75 staked — roughly fair, healthy.
+
+**R16 match bets: NONE clear the 1.15× threshold at plausible SGP prices. $25 reserve HELD.**
+
+| Candidate (blend 40 Elo/60 PM) | Blend % | Bet only if SGP ≥ | Expected SGP | Verdict |
+|---|---|---|---|---|
+| Argentina win-in-90 v Egypt | 80.6% | 1.43 | ~1.25–1.33 | ❌ (AR just needed ET v Cape Verde — model's 94% is Poisson overconfidence) |
+| Belgium win-in-90 v USA | 41.7% | 2.76 | ~2.35 | ❌ |
+| Colombia win-in-90 v Switzerland | 45.5% | 2.53 | ~2.05–2.15 | ❌ (also doubles CO exposure) |
+| Spain win-in-90 v Portugal | 56.1% | 2.05 | ~1.80–1.95 | ❌ (also concentrates ES) |
+| Canada to advance v Morocco | 31.7% | 3.63 | ~3.0–3.2 | ❌ (and don't hedge a lottery ticket) |
+
+Reserve rolls to QF round / final-hedge capital. Spain-in-final hedge scenario is live:
+P(AR–ES final) = 23.9% (do nothing, guaranteed profit); P(ES final vs other) ≈ 18% → hedge then.
+
 ## Rules
 
 - Total exposure capped at $100; no chasing, no top-ups.
