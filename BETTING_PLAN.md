@@ -107,11 +107,16 @@ thesis, SGP-vs-sharp mispricing, and discipline). Six Forces re-run on live brac
 
 Portfolio EV of returns: $104 (Six Forces) / ~$73 (market) on $75 staked.
 
-**NEXT MOVE — pending SGP line: $10 on Morocco to advance past France if SGP ≥ 3.80.**
+**NEXT MOVE — pending SGP line: $5 (not $10) on Morocco to advance past France if SGP ≥ 3.80.**
 Strict blend trigger (40 SF / 60 PM = 28.3%, ×1.15) = 4.06; pure-judgment fair = 2.55.
 Expected SGP posting ~3.8–4.2. At 3.80: +7.5% EV on blend, +49% on judgment.
-Payout $38 + outright stays live; if France wins, both die but total Morocco risk capped at $20.
-**Keep $15 for the Spain-final hedge.** No R16 bets: only remaining judgment gap is
+SIZED DOWN 2026-07-05 after user flagged correlation with the $10@35 Morocco outright:
+quarter-Kelly at 3.80 = $4.40 on pure judgment, <$1 on blend — $10 was oversized.
+This is pressing a live winner at the node of max model-vs-market disagreement, NOT
+loss-chasing; but the outright already gives leveraged Morocco-beats-France exposure
+(ticket market value ~4x if they win), so the add-on is optional juice. Skipping
+entirely is defensible; hedging France is not (model says France is overpriced).
+**Keep $20 for the Spain-final hedge.** No R16 bets: only remaining judgment gap is
 Egypt v Argentina (SF 27% vs mkt ~15%) — skip; composite logistic compresses tails,
 and it bets against our own ticket.
 
