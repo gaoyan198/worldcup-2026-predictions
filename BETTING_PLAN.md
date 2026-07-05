@@ -91,6 +91,30 @@ Portfolio EV of returns: $90 (Elo) / $73 (blend) on $75 staked — roughly fair,
 Reserve rolls to QF round / final-hedge capital. Spain-in-final hedge scenario is live:
 P(AR–ES final) = 23.9% (do nothing, guaranteed profit); P(ES final vs other) ≈ 18% → hedge then.
 
+### Update 2026-07-05 — Morocco beat Canada; QF1 is FRANCE v MOROCCO (Jul 9, Foxborough)
+
+Per user directive, primary lens is now the Six Forces model (no Elo — Elo is public
+and already in every market price; the only defensible edges are the environment/KO-DNA
+thesis, SGP-vs-sharp mispricing, and discipline). Six Forces re-run on live bracket
+(Morocco K 8.0→8.5 after two more KO wins; Norway/Egypt scored fresh):
+
+| | Six Forces | Polymarket | Read |
+|---|---|---|---|
+| Morocco beats France (QF) | **39.2%** | ~21% | Biggest gap on the board. 2022 redux: system+KO+heat vs heat-soft France in summer |
+| Morocco champion | 10.9% | 2.5% | $10@35 ticket EV: $38 (SF) vs $8.75 (mkt) — either way ≈ cost, ticket is NOT dead money |
+| France champion | 23.9% | 36.0% | Model says market OVERPRICES France → no France hedge |
+| Spain v Morocco SF | 20.2% | — | Two of our tickets; guaranteed finalist if it happens |
+
+Portfolio EV of returns: $104 (Six Forces) / ~$73 (market) on $75 staked.
+
+**NEXT MOVE — pending SGP line: $10 on Morocco to advance past France if SGP ≥ 3.80.**
+Strict blend trigger (40 SF / 60 PM = 28.3%, ×1.15) = 4.06; pure-judgment fair = 2.55.
+Expected SGP posting ~3.8–4.2. At 3.80: +7.5% EV on blend, +49% on judgment.
+Payout $38 + outright stays live; if France wins, both die but total Morocco risk capped at $20.
+**Keep $15 for the Spain-final hedge.** No R16 bets: only remaining judgment gap is
+Egypt v Argentina (SF 27% vs mkt ~15%) — skip; composite logistic compresses tails,
+and it bets against our own ticket.
+
 ## Rules
 
 - Total exposure capped at $100; no chasing, no top-ups.
