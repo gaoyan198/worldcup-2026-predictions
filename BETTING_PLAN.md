@@ -45,6 +45,7 @@ international books — hence the thresholds below.
 | 4 | **Morocco outright** | $10 | **PLACED 2026-06-12 at 35** (−EV on all signals: Elo ~0%, PM 1.6%; pure lottery ticket / 2022 redux bet) → pays $350 | |
 | 5 | **Norway to win in 90 min vs Ivory Coast (1X2)** | $15 | ✅ **WON** (placed 2026-06-28 @1.85; settled 2026-06-30). Returned $27.75, **profit +$12.75.** Was a thin ~58% +EV bet — favourite delivered. | LESSON: always confirm 1X2 vs to-qualify market before betting a knockout favorite |
 | 6 | **Reserve — Round of 16 match bets** | **$25** | After R32 (~early July) | Recycled Norway stake ($15) back in + original $10; $12.75 Norway profit BANKED (off the table). Deploy where model beats SGP-implied with cushion |
+| 7 | **France eliminated in QF (≡ Morocco to qualify, settles incl. ET/pens)** | $10 | **PLACED 2026-07-05 at 4.20** (SGP "Stage of Elimination"; cleared strict trigger 4.06 — first bet to do so all tournament; +19% EV blend, +65% judgment) → pays $42 | Six Forces 39% vs mkt 21% — biggest gap on board. User sized $10 (~half-Kelly on judgment) over $5 quarter-Kelly; total Morocco-vs-France risk $20 |
 
 ### Group-stage outcome (as of 2026-06-28)
 All four outright teams advanced; three won their groups.
@@ -107,18 +108,22 @@ thesis, SGP-vs-sharp mispricing, and discipline). Six Forces re-run on live brac
 
 Portfolio EV of returns: $104 (Six Forces) / ~$73 (market) on $75 staked.
 
-**NEXT MOVE — pending SGP line: $5 (not $10) on Morocco to advance past France if SGP ≥ 3.80.**
-Strict blend trigger (40 SF / 60 PM = 28.3%, ×1.15) = 4.06; pure-judgment fair = 2.55.
-Expected SGP posting ~3.8–4.2. At 3.80: +7.5% EV on blend, +49% on judgment.
-SIZED DOWN 2026-07-05 after user flagged correlation with the $10@35 Morocco outright:
-quarter-Kelly at 3.80 = $4.40 on pure judgment, <$1 on blend — $10 was oversized.
-This is pressing a live winner at the node of max model-vs-market disagreement, NOT
-loss-chasing; but the outright already gives leveraged Morocco-beats-France exposure
-(ticket market value ~4x if they win), so the add-on is optional juice. Skipping
-entirely is defensible; hedging France is not (model says France is overpriced).
-**Keep $20 for the Spain-final hedge.** No R16 bets: only remaining judgment gap is
-Egypt v Argentina (SF 27% vs mkt ~15%) — skip; composite logistic compresses tails,
-and it bets against our own ticket.
+**EXECUTED (bet #7): $10 France-eliminated-in-QF @ 4.20** — line beat both triggers
+(lenient 3.80, strict blend 4.06). SGP's ~116% overround on this market is almost all
+crammed into France-Winner @2.30 (43% implied vs PM 36%): favourite shaded for public
+money, elimination lines left honest — the exact SGP-vs-sharp gap this plan hunts.
+Sizing note: $5 = quarter-Kelly standalone on judgment 39%; user chose $10 (~half-Kelly
+on judgment, ~1.7× full Kelly if blend 28% is truth), reasoning new bets are sized
+independent of sunk positions — right for EV/decision, not strictly right for joint
+Kelly with correlated payoffs, but within the capped budget. Never hedge via France
+Winner @2.30 (worst-priced button on the screen).
+**Reserve now $15, held for the Spain-final hedge.** No R16 bets: only remaining
+judgment gap is Egypt v Argentina (SF 27% vs mkt ~15%) — skip; composite logistic
+compresses tails, and it bets against our own ticket.
+
+**Position: $85 staked, $15 reserve.** Net if Morocco beats France: +$32 cash, outright
+alive for SF (20% chance it's vs Spain — guaranteed finalist). If France wins: −$20
+across both Morocco positions that night, book reverts to Spain/Argentina/Colombia.
 
 ## Rules
 
