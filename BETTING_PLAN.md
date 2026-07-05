@@ -132,3 +132,15 @@ across both Morocco positions that night, book reverts to Spain/Argentina/Colomb
   bankroll treated as 100% entertainment budget.
 - Re-check Polymarket before betting — prices move fast in-tournament:
   `curl -s "https://gamma-api.polymarket.com/events?slug=world-cup-winner"`.
+
+### Bet #7 honest recalibration (2026-07-05, post-placement stress test)
+
+The 39% was headline, not truth: logistic steepness is uncalibrated (same scores give
+26–39% across plausible steepness), the K-nudge double-counts survivorship, and QF venue
+is Foxborough — mildest in the draw, muting the heat edge (in Dallas/Houston I'd defend 35%+).
+Market-side bias (favorite flow: SGP France 2.30 = 43% implied vs PM 36%; Morocco chronically
+underpriced since 2022; beat Canada 3-0 — first emphatic 90' KO win) is worth ~4–7pts, not 18.
+**Honest posterior: Morocco 28% / France 72%. At 4.20 (BE 23.8%) bet remains ~+18% EV — thin
+and real. Expect to lose ~7 in 10.** Watch PM line: drop toward 16% = injury info, do nothing;
+drift ≥25% = thesis confirming, still do nothing. France 1-0 Paraguay in R16; France unbeaten,
+never needed ET; Morocco has 120'+ twice (fatigue asymmetry).
