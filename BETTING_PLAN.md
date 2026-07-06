@@ -144,3 +144,19 @@ underpriced since 2022; beat Canada 3-0 — first emphatic 90' KO win) is worth 
 and real. Expect to lose ~7 in 10.** Watch PM line: drop toward 16% = injury info, do nothing;
 drift ≥25% = thesis confirming, still do nothing. France 1-0 Paraguay in R16; France unbeaten,
 never needed ET; Morocco has 120'+ twice (fatigue asymmetry).
+
+### 2026-07-06 — Brazil OUT (1-2 Norway, Haaland brace in 90'). Would we have bet Norway? No.
+
+Pre-match numbers: market 20.5% Norway win-in-90 / ~34% advance; Elo 22/32; Six Forces
+42.5% advance (friendliest anywhere, still a dog). Blend advance 37% → strict trigger
+3.07; SGP was ~2.6–2.9 → correctly NO BET. A 35–42% event landing once is not evidence
+any model was right (same shield applies Thursday if France beats Morocco). Outcome bias
+is the chaser's trap — missing a sub-threshold winner is the system working.
+Watch-item, not act-item: Six Forces is now 2-for-2 directionally warmer than market on
+live underdogs (Morocco, Norway). Two data points. Keep scoring, don't upsize.
+
+Book impact: Brazil was the strongest team on Argentina's SF side; QF3 is now Norway v
+MX/EN winner. Six Forces: AR champ 16.3→16.9%, final 32→33% (model already distrusted
+Brazil, S=6.5); CO 5.0→5.2%; Norway 5.9% champ (PM 1.7% — gap noted, NO bet: Norway's
+path runs through our AR/CO side of the bracket). Portfolio EV outrights ≈ $106.
+Next: Portugal–Spain tonight 03:00 SGT Jul 7 — biggest survival night for the book, no action.
