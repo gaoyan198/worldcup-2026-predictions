@@ -160,3 +160,19 @@ MX/EN winner. Six Forces: AR champ 16.3→16.9%, final 32→33% (model already d
 Brazil, S=6.5); CO 5.0→5.2%; Norway 5.9% champ (PM 1.7% — gap noted, NO bet: Norway's
 path runs through our AR/CO side of the bracket). Portfolio EV outrights ≈ $106.
 Next: Portugal–Spain tonight 03:00 SGT Jul 7 — biggest survival night for the book, no action.
+
+### 2026-07-07 — Spain 1-0 Portugal: into the QF. Book's biggest survival night held.
+
+Spain beat Portugal 1-0 in the R16 — the most-exposed ticket ($30 @ 4.50) survives the
+hardest match on its road. No bet was made (Spain win-in-90 didn't clear threshold pre-match;
+it also concentrated existing exposure). All four outrights (Spain, Argentina, Colombia,
+Morocco) remain alive into the quarter-finals.
+
+**Spain's QF is vs the USA/Belgium winner (QF2).** Softer than Portugal — Spain's path
+opens up. The Spain-in-final hedge scenario stays live and the **$15 reserve stays held**
+for it: deploy only if Spain reaches the final vs a non-Argentina side (~18%); do nothing
+on an AR–ES final (~24%, bets 1+2 already lock profit).
+
+**Position unchanged: $85 staked, $15 reserve.** Next event: QF1 France v Morocco (Jul 9,
+Foxborough) — bet #7 ($10 @ 4.20) settles. Honest posterior Morocco ~28%, still ~+18% EV,
+expect to lose ~7 in 10; no action on Polymarket line moves.
