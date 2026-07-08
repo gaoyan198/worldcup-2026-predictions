@@ -197,3 +197,35 @@ Morocco ($10@35 → $350).** Colombia's +$275 branch is gone. Position: **$85 st
 the now-dead $10 Colombia), $15 reserve** still held for the Spain-final hedge. No new bet —
 Colombia dying was priced in, and nothing on the board clears the threshold. Next: QF1
 France v Morocco (Jul 9), bet #7 settles.
+
+## Contingency plan — semifinal & final hedge triggers (pre-committed)
+
+Written before the QFs to lock decisions in cold. **Structural fact that drives everything:
+Spain and France share the same semifinal.** Bracket feeds: SF1 = QF1 winner (France side) vs
+QF2 winner (Spain side); SF2 = QF3 winner (Norway/England) vs QF4 winner (Argentina/Switzerland).
+So Spain and Argentina sit in *opposite halves* — they can meet in the final (guaranteed-profit
+dream), but there is **no Spain–France final**: Spain must beat France in SF1 to reach the final.
+
+### If the QFs deliver France + Spain + Argentina (the scenario asked about)
+
+- **Semifinals lock as: SF1 France v Spain · SF2 Argentina v Norway/England.**
+- That QF night: France beating Morocco kills **bet #7 (−$10)** and the **Morocco outright
+  (−$10)**. Down to two live tickets — **Spain $30@4.50 (→$135)**, **Argentina $25@6.00 (→$150)**
+  — plus the **$15 reserve untouched**.
+- **Semifinal stage = NO BET.** Betting SF1 either concentrates Spain or bets against it;
+  SF2 involves Argentina the same way. Neither clears the 1.15× threshold. Hold; reserve parked.
+  The pivotal match is **SF1 (France v Spain)** — roughly a coin-flip vs a genuine top side, so
+  the Morocco heat/KO-DNA thesis does NOT carry over. Do not re-bet France-out on that logic.
+
+### Final-stage triggers (apply however the bracket actually resolves)
+
+| Final matchup | Book state | Action |
+|---|---|---|
+| **Argentina vs Spain** | one ticket holds the champion; $135–150 payout > $85 exposure | **Do nothing — guaranteed profit.** Best case. |
+| **Spain vs Norway/England** (Spain beat France; Argentina lost SF2) | only Spain alive @ 4.50 | **Deploy the $15 reserve on the final opponent** → locks a positive floor (~$40–60) across both outcomes |
+| **Argentina vs France** (Argentina won SF2; France beat Spain) | only Argentina alive @ 6.00 → $150 | Hold; **optional partial $15 hedge on France** to set a floor — but $150 upside is large, lean light |
+| **Neither reaches final** (France beat Spain AND Argentina lost SF2) | both tickets dead | Book realizes **−$85**, reserve unused (−$70 net). **No chase** — nothing to hedge after the fact |
+
+**Reserve rule reaffirmed:** the $15 is hedge capital, deployed ONLY at the final and ONLY when
+exactly one portfolio team is in it vs a non-portfolio opponent. Never spent on a semifinal,
+never used to double an existing ticket.
