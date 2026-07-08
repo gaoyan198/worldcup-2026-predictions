@@ -176,3 +176,24 @@ on an AR–ES final (~24%, bets 1+2 already lock profit).
 **Position unchanged: $85 staked, $15 reserve.** Next event: QF1 France v Morocco (Jul 9,
 Foxborough) — bet #7 ($10 @ 4.20) settles. Honest posterior Morocco ~28%, still ~+18% EV,
 expect to lose ~7 in 10; no action on Polymarket line moves.
+
+### 2026-07-08 — Colombia OUT (lost R16 to Switzerland); Argentina edges Egypt into QF.
+
+Two QF4-side R16 results settled: **Colombia lost to Switzerland** and **Argentina narrowly
+beat Egypt**. Bet #3 (Colombia $10 @ 35) is a **realized loss** — a lottery ticket dying
+as expected (−EV on every blend signal at placement; sunk from day one). No hedge was ever
+held on it, correctly.
+
+Argentina barely advancing is the discipline paying off: we flagged Egypt as a live dog
+(Six Forces ~27% to reach vs market ~15%) but **skipped the Egypt bet because it bet against
+our own Argentina ticket** — the right call regardless of how close it got. A narrow win is
+not evidence the dog should have been backed.
+
+Bracket impact: Colombia's exit removes the Argentina–Colombia QF4 collision, so there's no
+longer a guaranteed-semifinalist branch on that side. **Argentina's QF is now vs Switzerland.**
+
+**Live outright tickets down to three: Spain ($30@4.50 → $135), Argentina ($25@6.00 → $150),
+Morocco ($10@35 → $350).** Colombia's +$275 branch is gone. Position: **$85 staked (incl.
+the now-dead $10 Colombia), $15 reserve** still held for the Spain-final hedge. No new bet —
+Colombia dying was priced in, and nothing on the board clears the threshold. Next: QF1
+France v Morocco (Jul 9), bet #7 settles.
