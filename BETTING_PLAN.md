@@ -229,3 +229,26 @@ dream), but there is **no Spain–France final**: Spain must beat France in SF1 
 **Reserve rule reaffirmed:** the $15 is hedge capital, deployed ONLY at the final and ONLY when
 exactly one portfolio team is in it vs a non-portfolio opponent. Never spent on a semifinal,
 never used to double an existing ticket.
+
+### 2026-07-10 — QF1 settled: France beat Morocco. Bet #7 loses, Morocco outright dead.
+
+France advanced, Morocco OUT. Both Morocco positions die exactly per the pre-committed plan
+above: **bet #7 (France-eliminated-in-QF, $10 @ 4.20) is a realized loss (−$10)**, and the
+**Morocco outright ($10 @ 35) is a realized loss (−$10)**. Nothing to second-guess — bet #7
+was a thin +18% EV ticket on an honest 28% posterior; losing ~7 in 10 times was priced in.
+
+This locks the France half of the bracket: **SF1 = France v Spain** (whenever Spain wins QF2).
+Per the contingency plan, semifinal stage is a no-bet regardless of how the rest of the QFs
+land — SF1 is a coin-flip vs a genuine top side, not a Morocco-style mismatch, so the KO-DNA
+edge does not carry over.
+
+**Live outright tickets down to two: Spain ($30@4.50 → $135), Argentina ($25@6.00 → $150).**
+Total realized losses so far: Colombia (−$10) + Morocco (−$10) + bet #7 (−$10) = **−$30**.
+**Position: $85 staked (3 dead, 2 live), $15 reserve untouched**, still held exclusively for
+the final-stage hedge triggers above.
+
+**Next steps:** QF2 Spain v USA/Belgium winner and QF4 Argentina v Switzerland — both no-bet
+per discipline (thresholds don't clear, and betting either concentrates or fades our own
+tickets). Once those settle, SF pairings lock: SF1 France v Spain (confirmed), SF2 = winner of
+Argentina/Switzerland v winner of Norway/England side. Hold through the semifinals; apply the
+final-stage trigger table only once the final matchup is known.
