@@ -252,3 +252,28 @@ per discipline (thresholds don't clear, and betting either concentrates or fades
 tickets). Once those settle, SF pairings lock: SF1 France v Spain (confirmed), SF2 = winner of
 Argentina/Switzerland v winner of Norway/England side. Hold through the semifinals; apply the
 final-stage trigger table only once the final matchup is known.
+
+### 2026-07-12 — Semifinals LOCKED: SF1 France v Spain · SF2 Argentina v England.
+
+Remaining QFs settled: Spain took QF2 and Argentina beat Switzerland in QF4 (then advanced past
+the Norway/England side's QF3 producing England). **Both live tickets are in the semis, on
+opposite halves:** Spain ($30@4.50 → $135) in SF1, Argentina ($25@6.00 → $150) in SF2. The
+guaranteed-profit **Argentina–Spain final** is now genuinely live (requires Spain to beat France
+AND Argentina to beat England).
+
+**Semifinal stage = NO BET (unchanged, pre-committed).** Betting SF1 concentrates or fades Spain;
+SF2 does the same to Argentina; neither clears the 1.15× threshold. SF1 (France v Spain) is the
+pivotal match but a coin-flip vs a genuine top side — the Morocco heat/KO-DNA thesis does NOT
+carry over, so no "France-out" re-bet. **$15 reserve stays parked** until the final is set.
+
+All four final-trigger rows now map to concrete matchups:
+
+| SF1 | SF2 | Final | $15 action |
+|---|---|---|---|
+| **Spain** beats France | **Argentina** beats England | AR v ES | **Do nothing — guaranteed profit** |
+| **Spain** beats France | England beats AR | Spain v England | **Deploy $15 on England** → ~$40–60 floor |
+| France beats Spain | **Argentina** beats England | AR v France | Hold; optional *light* $15 hedge on France |
+| France beats Spain | England beats AR | France v England | Both tickets dead → −$85, reserve unused, no chase |
+
+**Position unchanged: $85 staked (3 dead, 2 live), $15 reserve untouched.** Pivotal match = SF1:
+Spain winning keeps the biggest ticket alive and the guaranteed-profit path open.
