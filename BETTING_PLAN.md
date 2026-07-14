@@ -277,3 +277,30 @@ All four final-trigger rows now map to concrete matchups:
 
 **Position unchanged: $85 staked (3 dead, 2 live), $15 reserve untouched.** Pivotal match = SF1:
 Spain winning keeps the biggest ticket alive and the guaranteed-profit path open.
+
+### 2026-07-15 — SF1 SETTLED: Spain beat France. Spain into the FINAL.
+
+Spain won SF1 — the pivotal match of the whole book, and it broke our way. The biggest ticket,
+**Spain ($30 @ 4.50 → $135)**, is now one match from cashing and the guaranteed-profit
+Argentina–Spain final is still live. No bet was (or could be) made on SF1 — pre-committed no-bet
+held; betting it would only have concentrated or faded our own Spain ticket.
+
+**Nothing is locked yet — two things are still true:**
+1. **Spain reaching the final is not profit.** The $135 pays only on a Spain *win*; a final loss
+   still leaves that ticket at −$30. Do not treat "in the final" as money in hand.
+2. **The guaranteed-profit branch still needs Argentina to win SF2.** Only Spain is confirmed
+   in the final so far.
+
+**SF2 (Argentina v England) is the remaining gate.** Pre-committed final-trigger rows that are
+still reachable:
+
+| SF2 result | Final | $15 action |
+|---|---|---|
+| **Argentina** beats England | Argentina v Spain | **Do nothing — guaranteed profit** (one of our two tickets must win; $135–$150 > $85 exposure). Best case, still live. |
+| England beats Argentina | Spain v England | **Deploy $15 reserve on England** → locks a positive floor (~$40–60) whichever way the final goes. |
+
+**$15 reserve stays parked** until SF2 resolves and the final matchup is known — never spent on
+a semifinal, never used to double the Spain ticket. No bet on SF2 itself, either (it concentrates
+or fades the Argentina ticket, and won't clear the 1.15× threshold). **Position unchanged: $85
+staked (3 dead: Colombia, Morocco, bet #7; 2 live: Spain, Argentina), $15 reserve untouched.**
+Next event: SF2 Argentina v England.
