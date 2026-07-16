@@ -304,3 +304,36 @@ a semifinal, never used to double the Spain ticket. No bet on SF2 itself, either
 or fades the Argentina ticket, and won't clear the 1.15× threshold). **Position unchanged: $85
 staked (3 dead: Colombia, Morocco, bet #7; 2 live: Spain, Argentina), $15 reserve untouched.**
 Next event: SF2 Argentina v England.
+
+### 2026-07-16 — SF2 SETTLED: Argentina beat England. FINAL = Argentina v Spain. BEST CASE. 🏆
+
+Argentina beat England in SF2. The final is **Argentina v Spain** — both our live tickets, drawn
+into opposite halves months ago, now meeting in the final. **Exactly one of them is
+mathematically guaranteed to win the trophy, so the book's profit is locked before kickoff.**
+This is the ~24%-likely best-case branch (P(AR–ES final) = 23.9% at R32) the whole plan was
+built around — a good outcome that is part discipline (backing the two strongest, best-value
+sides and not chasing) and part variance breaking our way. Not proof the forecast was "right."
+
+**FINAL MOVE = DO NOTHING** (pre-committed trigger table, row 1). Any hedge now would only shrink
+guaranteed profit — there is no downside left to insure. The **$15 reserve stays unspent** and
+returns to pocket. Trigger table row *Argentina vs Spain → do nothing — guaranteed profit* active.
+
+**Final book — every dollar's outcome now known except which finalist cashes:**
+
+| Bet | Stake | Result | P&L |
+|---|---|---|---|
+| Spain outright @ 4.50 | $30 | in final | +$105 (win) / −$30 (loss) |
+| Argentina outright @ 6.00 | $25 | in final | +$125 (win) / −$25 (loss) |
+| Colombia outright @ 35 | $10 | lost | −$10 |
+| Morocco outright @ 35 | $10 | lost | −$10 |
+| Bet #7 France-out-QF @ 4.20 | $10 | lost | −$10 |
+| Norway win-in-90 @ 1.85 | $15 | won ($27.75) | +$12.75 |
+| Reserve | — | unused | $0 |
+
+**Two possible endings, both profitable (started from a $100 bankroll):**
+- **Spain champion → ending bankroll $162.75, net +$62.75, ROI +62.8%.**
+- **Argentina champion → ending bankroll $177.75, net +$77.75, ROI +77.8%.**
+
+**Guaranteed range: +$62.75 to +$77.75 (+63% to +78%) on a $100 entertainment budget**, decided
+only by which of our two finalists lifts the cup. Norway was self-funding (staked $15 → returned
+$27.75, +$12.75 banked); the $15 reserve was never needed. Nothing left to do but watch the final.
