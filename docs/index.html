@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Cup 2026 Betting Book — Season Recap</title>
+<meta name="description" content="A $100 disciplined World Cup 2026 betting book that drew both finalists — guaranteed +63% to +78% before the final.">
+<style>
+  :root{
+    color-scheme: light;
+    --plane:#f9f9f7; --surface:#fcfcfb; --surface-2:#f3f2ee;
+    --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --profit:#2a78d6; --loss:#e34948; --good:#0ca30c; --good-ink:#006300;
+    --profit-wash:rgba(42,120,214,0.10); --loss-wash:rgba(227,73,72,0.10); --good-wash:rgba(12,163,12,0.10);
+    --shadow:0 1px 2px rgba(11,11,11,.05),0 8px 24px rgba(11,11,11,.06);
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232321;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --profit:#3987e5; --loss:#e66767; --good:#0ca30c; --good-ink:#0ca30c;
+    --profit-wash:rgba(57,135,229,0.14); --loss-wash:rgba(230,103,103,0.14); --good-wash:rgba(12,163,12,0.14);
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.5);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232321;
+      --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+      --profit:#3987e5; --loss:#e66767; --good:#0ca30c; --good-ink:#0ca30c;
+      --profit-wash:rgba(57,135,229,0.14); --loss-wash:rgba(230,103,103,0.14); --good-wash:rgba(12,163,12,0.14);
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.5);
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--plane); color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px; margin:0 auto; padding:0 20px 72px}
+  a{color:var(--profit)}
+  h1,h2,h3{line-height:1.15; margin:0}
+  .tnum{font-variant-numeric:tabular-nums}
+
+  /* Theme toggle */
+  .toggle{
+    position:fixed; top:14px; right:14px; z-index:10;
+    display:inline-flex; align-items:center; gap:6px;
+    background:var(--surface); color:var(--ink-2); border:1px solid var(--border);
+    border-radius:999px; padding:7px 12px; font-size:13px; cursor:pointer;
+    box-shadow:var(--shadow);
+  }
+  .toggle:hover{color:var(--ink)}
+
+  /* Hero */
+  header.hero{padding:64px 0 28px; text-align:center}
+  .eyebrow{font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:600}
+  .hero h1{font-size:clamp(28px,5vw,44px); font-weight:800; letter-spacing:-.02em; margin:14px 0 6px}
+  .hero .figure{
+    font-size:clamp(56px,12vw,104px); font-weight:800; letter-spacing:-.03em;
+    color:var(--good-ink); margin:8px 0 4px; line-height:1;
+  }
+  .hero .sub{font-size:clamp(15px,2.4vw,18px); color:var(--ink-2); max-width:620px; margin:12px auto 0}
+  .hero .sub b{color:var(--ink)}
+
+  /* Matchup banner */
+  .matchup{
+    display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap;
+    background:var(--surface); border:1px solid var(--border); border-radius:16px;
+    padding:18px 22px; margin:26px 0 10px; box-shadow:var(--shadow); text-align:center;
+  }
+  .matchup .team{display:flex; align-items:center; gap:10px; font-weight:700; font-size:clamp(18px,3.4vw,24px)}
+  .matchup .flag{font-size:clamp(26px,5vw,34px); line-height:1}
+  .matchup .vs{color:var(--muted); font-weight:600; font-size:15px; letter-spacing:.1em}
+  .matchup .note{width:100%; color:var(--ink-2); font-size:14px; margin-top:2px}
+  .badge-lock{
+    display:inline-flex; align-items:center; gap:6px; background:var(--good-wash); color:var(--good-ink);
+    border:1px solid color-mix(in srgb, var(--good) 40%, transparent); border-radius:999px;
+    padding:4px 11px; font-size:13px; font-weight:700;
+  }
+
+  /* KPI row */
+  .kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:26px 0}
+  .kpi{background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:16px 16px 15px; box-shadow:var(--shadow)}
+  .kpi .k-label{font-size:12.5px; color:var(--muted); font-weight:600; letter-spacing:.02em}
+  .kpi .k-val{font-size:clamp(22px,3.4vw,28px); font-weight:800; letter-spacing:-.01em; margin-top:6px}
+  .kpi .k-val.good{color:var(--good-ink)}
+  .kpi .k-foot{font-size:12px; color:var(--ink-2); margin-top:3px}
+
+  /* Section */
+  section{margin:40px 0 0}
+  .sec-head{margin-bottom:14px}
+  .sec-head h2{font-size:20px; font-weight:750; letter-spacing:-.01em}
+  .sec-head p{margin:5px 0 0; color:var(--ink-2); font-size:14.5px; max-width:640px}
+  .card{background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow)}
+
+  /* P&L chart */
+  .chart{padding:20px 20px 16px}
+  .legend{display:flex; gap:16px; flex-wrap:wrap; margin-bottom:14px; font-size:13px; color:var(--ink-2)}
+  .legend span{display:inline-flex; align-items:center; gap:7px}
+  .sw{width:14px; height:14px; border-radius:4px; display:inline-block}
+  .sw.p{background:var(--profit)}
+  .sw.l{background:var(--loss)}
+  .sw.c{background:var(--profit); background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.32) 0 3px,transparent 3px 7px)}
+  .row{display:grid; grid-template-columns:minmax(96px,150px) 1fr minmax(58px,auto); align-items:center; gap:12px; padding:7px 0}
+  .row .name{font-size:13.5px; font-weight:600}
+  .row .name small{display:block; color:var(--muted); font-weight:500; font-size:11.5px; margin-top:1px}
+  .row .name .tag{display:inline-block; margin-top:3px; font-size:10.5px; font-weight:700; letter-spacing:.04em; color:var(--profit); background:var(--profit-wash); border-radius:5px; padding:1px 6px}
+  .track{position:relative; height:24px}
+  .zero{position:absolute; left:10%; top:-4px; bottom:-4px; width:2px; background:var(--baseline)}
+  .bar{position:absolute; top:2px; bottom:2px; cursor:default; transition:filter .12s}
+  .bar:hover{filter:brightness(1.08)}
+  .bar.pos{border-radius:0 4px 4px 0; background:var(--profit)}
+  .bar.neg{border-radius:4px 0 0 4px; background:var(--loss)}
+  .bar.cond{background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.30) 0 3px,transparent 3px 7px)}
+  .row .val{text-align:right; font-size:14px; font-weight:700; font-variant-numeric:tabular-nums}
+  .row .val small{font-weight:600; color:var(--muted); font-size:11px}
+  .chart .foot{font-size:12.5px; color:var(--muted); margin:12px 2px 0; line-height:1.45}
+
+  /* Tooltip */
+  .tip{position:fixed; z-index:50; pointer-events:none; opacity:0; transform:translateY(4px); transition:opacity .1s;
+    background:var(--ink); color:var(--plane); font-size:12.5px; line-height:1.4; padding:8px 10px; border-radius:8px; max-width:240px; box-shadow:var(--shadow)}
+  .tip b{color:var(--plane)}
+  :root[data-theme="dark"] .tip{background:#f3f2ee; color:#111}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tip{background:#f3f2ee; color:#111}}
+
+  /* Endings */
+  .endings{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+  .end{padding:20px}
+  .end h3{font-size:15px; font-weight:700; display:flex; align-items:center; gap:9px}
+  .end h3 .flag{font-size:22px}
+  .end .big{font-size:34px; font-weight:800; color:var(--good-ink); margin:12px 0 2px; letter-spacing:-.01em}
+  .end .line{display:flex; justify-content:space-between; gap:10px; font-size:13.5px; padding:5px 0; border-top:1px solid var(--border)}
+  .end .line:first-of-type{border-top:none}
+  .end .line .r{font-variant-numeric:tabular-nums; font-weight:600}
+  .end .line .r.p{color:var(--profit)} .end .line .r.l{color:var(--loss)}
+  .end .total{margin-top:10px; padding-top:10px; border-top:2px solid var(--border); display:flex; justify-content:space-between; font-weight:800}
+  .end .total .r{font-variant-numeric:tabular-nums}
+
+  /* Timeline */
+  .timeline{padding:8px 20px 20px}
+  .stage{display:grid; grid-template-columns:74px 1fr; gap:14px; padding:14px 0; border-top:1px solid var(--border)}
+  .stage:first-child{border-top:none}
+  .stage .st{font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); padding-top:2px}
+  .stage .body{font-size:14px}
+  .stage .body b{font-weight:700}
+  .pill{display:inline-block; font-size:11.5px; font-weight:700; border-radius:6px; padding:1px 7px; margin:2px 5px 2px 0; white-space:nowrap}
+  .pill.win{background:var(--profit-wash); color:var(--profit)}
+  .pill.loss{background:var(--loss-wash); color:var(--loss)}
+  .pill.live{background:var(--good-wash); color:var(--good-ink)}
+
+  /* Discipline */
+  .principles{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+  .pr{padding:18px 18px 16px}
+  .pr h3{font-size:14.5px; font-weight:700; margin-bottom:5px}
+  .pr p{margin:0; font-size:13.5px; color:var(--ink-2)}
+  .pr .n{font-size:12px; font-weight:800; color:var(--profit); letter-spacing:.04em}
+
+  footer{margin-top:44px; padding-top:22px; border-top:1px solid var(--border); color:var(--muted); font-size:12.5px; line-height:1.6}
+  footer b{color:var(--ink-2)}
+
+  @media (max-width:640px){
+    .kpis{grid-template-columns:1fr 1fr}
+    .endings,.principles{grid-template-columns:1fr}
+    .row{grid-template-columns:minmax(84px,1fr) 1.4fr minmax(52px,auto); gap:9px}
+    .hero{padding-top:52px}
+  }
+</style>
+</head>
+<body>
+<button class="toggle" id="themeToggle" aria-label="Toggle light/dark theme"><span id="themeIcon">◐</span> <span id="themeLabel">Theme</span></button>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">World Cup 2026 · $100 Betting Book · Season Recap</div>
+    <h1>We drew both finalists.</h1>
+    <div class="figure">+63% <span style="font-weight:600;color:var(--muted);font-size:.5em">to</span> +78%</div>
+    <div class="sub"><b>Guaranteed return on a $100 book — locked before the final is played.</b> $100 staked returns <b>$162.75–$177.75</b>. The only open question is which of our two finalists lifts the cup.</div>
+  </header>
+
+  <div class="matchup">
+    <div class="team"><span class="flag">🇦🇷</span> Argentina</div>
+    <div class="vs">— FINAL —</div>
+    <div class="team">Spain <span class="flag">🇪🇸</span></div>
+    <div class="note"><span class="badge-lock">✓ Profit locked</span> &nbsp;We hold outright tickets on <b>both</b> finalists, on opposite halves of the bracket. Exactly one must win the trophy — so the book is green either way. Final move: <b>do nothing.</b></div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="k-label">Total staked</div><div class="k-val tnum">$100</div><div class="k-foot">entertainment budget, capped</div></div>
+    <div class="kpi"><div class="k-label">Guaranteed profit</div><div class="k-val good tnum">+$62.75<span style="font-size:.6em;font-weight:600">→</span>+$77.75</div><div class="k-foot">whoever wins the final</div></div>
+    <div class="kpi"><div class="k-label">Return on bankroll</div><div class="k-val good tnum">+62.8%<span style="font-size:.6em;font-weight:600">→</span>+77.8%</div><div class="k-foot">on the $100 book</div></div>
+    <div class="kpi"><div class="k-label">Bets placed</div><div class="k-val tnum">6</div><div class="k-foot">1 won · 3 lost · 2 in the final</div></div>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <h2>Profit &amp; loss, bet by bet</h2>
+      <p>The whole strategy in one shape: three small edge/lottery tickets died as priced, a self-funding side bet paid for itself, and two disciplined value tickets on the strongest sides now carry the book to the final.</p>
+    </div>
+    <div class="card chart">
+      <div class="legend">
+        <span><i class="sw p"></i> Profit</span>
+        <span><i class="sw l"></i> Loss</span>
+        <span><i class="sw c"></i> In final — conditional (one of the two settles as a win)</span>
+      </div>
+
+      <div class="row" data-tip="Argentina outright · $25 @ 6.00 · reaches the final · pays $150 if champion (net +$125)">
+        <div class="name">Argentina <small>outright · $25 @ 6.00</small><span class="tag">IN FINAL</span></div>
+        <div class="track"><div class="zero"></div><div class="bar pos cond" style="left:10%;width:90%"></div></div>
+        <div class="val">+$125<br><small>if champ</small></div>
+      </div>
+
+      <div class="row" data-tip="Spain outright · $30 @ 4.50 · reaches the final · pays $135 if champion (net +$105)">
+        <div class="name">Spain <small>outright · $30 @ 4.50</small><span class="tag">IN FINAL</span></div>
+        <div class="track"><div class="zero"></div><div class="bar pos cond" style="left:10%;width:75.6%"></div></div>
+        <div class="val">+$105<br><small>if champ</small></div>
+      </div>
+
+      <div class="row" data-tip="Norway to win in 90' vs Ivory Coast · $15 @ 1.85 · WON · returned $27.75 (net +$12.75). Stake was recycled — the bet paid for itself.">
+        <div class="name">Norway <small>win-in-90' · $15 @ 1.85</small></div>
+        <div class="track"><div class="zero"></div><div class="bar pos" style="left:10%;width:9.18%"></div></div>
+        <div class="val">+$12.75</div>
+      </div>
+
+      <div class="row" data-tip="Colombia outright · $10 @ 35 · OUT in the Round of 16 (lost to Switzerland). A lottery ticket, −EV at placement — sunk from day one.">
+        <div class="name">Colombia <small>outright · $10 @ 35</small></div>
+        <div class="track"><div class="zero"></div><div class="bar neg" style="left:2.8%;width:7.2%"></div></div>
+        <div class="val">−$10</div>
+      </div>
+
+      <div class="row" data-tip="Morocco outright · $10 @ 35 · OUT in the QF (France won). Pure lottery ticket / 2022 redux — priced to lose ~7 in 10.">
+        <div class="name">Morocco <small>outright · $10 @ 35</small></div>
+        <div class="track"><div class="zero"></div><div class="bar neg" style="left:2.8%;width:7.2%"></div></div>
+        <div class="val">−$10</div>
+      </div>
+
+      <div class="row" data-tip="Bet #7 — France eliminated in QF · $10 @ 4.20 · France won, so LOST. A thin +18% EV ticket on an honest ~28% chance; the ~72% side landed.">
+        <div class="name">Bet #7 <small>France-out-QF · $10 @ 4.20</small></div>
+        <div class="track"><div class="zero"></div><div class="bar neg" style="left:2.8%;width:7.2%"></div></div>
+        <div class="val">−$10</div>
+      </div>
+
+      <p class="foot">The two <b>IN FINAL</b> bars are conditional — exactly one settles as the win shown; the other becomes a −stake (−$25 or −$30). They can’t both cash. The two possible totals are shown below.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Two endings — both green</h2>
+      <p>Because we hold both finalists, every remaining path is profitable. Here are the only two, in full.</p>
+    </div>
+    <div class="endings">
+      <div class="card end">
+        <h3><span class="flag">🇪🇸</span> If Spain are champions</h3>
+        <div class="line"><span>Spain ticket ($30 @ 4.50)</span><span class="r p">+$105</span></div>
+        <div class="line"><span>Argentina ticket (final loss)</span><span class="r l">−$25</span></div>
+        <div class="line"><span>Norway win-in-90'</span><span class="r p">+$12.75</span></div>
+        <div class="line"><span>Colombia · Morocco · Bet #7</span><span class="r l">−$30</span></div>
+        <div class="big tnum">+$62.75</div>
+        <div class="total"><span>Bankroll $100 →</span><span class="r">$162.75 &nbsp;·&nbsp; +62.8%</span></div>
+      </div>
+      <div class="card end">
+        <h3><span class="flag">🇦🇷</span> If Argentina are champions</h3>
+        <div class="line"><span>Argentina ticket ($25 @ 6.00)</span><span class="r p">+$125</span></div>
+        <div class="line"><span>Spain ticket (final loss)</span><span class="r l">−$30</span></div>
+        <div class="line"><span>Norway win-in-90'</span><span class="r p">+$12.75</span></div>
+        <div class="line"><span>Colombia · Morocco · Bet #7</span><span class="r l">−$30</span></div>
+        <div class="big tnum">+$77.75</div>
+        <div class="total"><span>Bankroll $100 →</span><span class="r">$177.75 &nbsp;·&nbsp; +77.8%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>The run</h2>
+      <p>How the two tickets survived to a shared final — one round at a time.</p>
+    </div>
+    <div class="card timeline">
+      <div class="stage"><div class="st">Groups</div><div class="body">All four outright teams advanced. The <b>Norway win-in-90'</b> side bet cashed. <span class="pill win">Norway +$12.75</span></div></div>
+      <div class="stage"><div class="st">Round 16</div><div class="body"><b>Spain 1–0 Portugal</b> — the book's biggest survival night, held. Argentina edged Egypt. <span class="pill loss">Colombia OUT</span></div></div>
+      <div class="stage"><div class="st">Quarters</div><div class="body">France beat Morocco, killing both Morocco positions as pre-committed. Spain &amp; Argentina both through. <span class="pill loss">Morocco OUT</span><span class="pill loss">Bet #7 dead</span></div></div>
+      <div class="stage"><div class="st">Semis</div><div class="body"><b>Spain destroyed France</b> (SF1) and <b>Argentina beat England</b> (SF2) — the ~24% best-case branch. <span class="pill live">Both into the final</span></div></div>
+      <div class="stage"><div class="st">Final</div><div class="body"><b>🇦🇷 Argentina v Spain 🇪🇸</b> — both tickets ours. <span class="pill live">Do nothing · profit locked</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>How it was run</h2>
+      <p>The result is part discipline, part variance breaking our way — getting both finalists was only ~24% likely. The process, not the outcome, is the point.</p>
+    </div>
+    <div class="principles">
+      <div class="card pr"><div class="n">01</div><h3>Fundamentals over Elo</h3><p>Primary lens was a "Six Forces" model, not Elo — Elo is public and already priced into every line, so it carries no edge. Real edges: environment / knockout-DNA and Singapore-Pools-vs-sharp mispricing.</p></div>
+      <div class="card pr"><div class="n">02</div><h3>A hard value gate</h3><p>Only bet lines clearing a <b>1.15× cushion</b> over fair odds. Most candidates never cleared it — and skipping them is the system working, not a missed bet.</p></div>
+      <div class="card pr"><div class="n">03</div><h3>No chasing, no top-ups</h3><p>Exposure capped at $100. Three edge/lottery tickets died exactly as priced and we never reloaded to "get it back." Outcome bias is the chaser's trap.</p></div>
+      <div class="card pr"><div class="n">04</div><h3>Reserve as insurance</h3><p>$15 was kept as hedge capital for a one-sided final — deployed only if exactly one of our teams reached it. The best-case all-ours final made a hedge pointless, so it stayed <b>unspent</b>.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>$100 SGD entertainment budget.</b> Bets placed via Singapore Pools. Polymarket referenced as a near-vig-free price signal only (it is banned in Singapore). Probabilities from a personal fundamentals model; a great outcome is not proof the forecast was "right."</p>
+    <p>This is a personal hobby record kept for fun and discipline practice — <b>not investment advice, not betting advice, and not affiliated with any operator.</b> Please gamble responsibly. Recap generated 16 Jul 2026.</p>
+  </footer>
+
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script>
+(function(){
+  // Theme toggle: default follows OS; click cycles and persists.
+  var root=document.documentElement, btn=document.getElementById('themeToggle'),
+      icon=document.getElementById('themeIcon'), label=document.getElementById('themeLabel');
+  function sysDark(){return window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;}
+  function eff(){var t=root.getAttribute('data-theme'); return t?t:(sysDark()?'dark':'light');}
+  function paint(){var d=eff()==='dark'; icon.textContent=d?'☾':'☀'; label.textContent=d?'Dark':'Light';}
+  try{var saved=localStorage.getItem('wc-theme'); if(saved){root.setAttribute('data-theme',saved);}}catch(e){}
+  paint();
+  btn.addEventListener('click',function(){
+    var next=eff()==='dark'?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('wc-theme',next);}catch(e){}
+    paint();
+  });
+
+  // Bar / row tooltips
+  var tip=document.getElementById('tip'), rows=document.querySelectorAll('.row[data-tip]');
+  function show(e,html){tip.textContent=html; tip.style.opacity='1';move(e);}
+  function move(e){
+    var x=e.clientX, y=e.clientY, w=tip.offsetWidth, h=tip.offsetHeight, pad=14;
+    var left=x+pad; if(left+w>window.innerWidth-8) left=x-w-pad;
+    var top=y+pad; if(top+h>window.innerHeight-8) top=y-h-pad;
+    tip.style.left=Math.max(8,left)+'px'; tip.style.top=Math.max(8,top)+'px';
+  }
+  rows.forEach(function(r){
+    var txt=r.getAttribute('data-tip');
+    r.addEventListener('mouseenter',function(e){show(e,txt);});
+    r.addEventListener('mousemove',move);
+    r.addEventListener('mouseleave',function(){tip.style.opacity='0';});
+  });
+})();
+</script>
+</body>
+</html>
